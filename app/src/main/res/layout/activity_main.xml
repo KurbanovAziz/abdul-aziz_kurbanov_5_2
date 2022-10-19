@@ -9,34 +9,62 @@
 
 
     <EditText
-        app:layout_constraintBottom_toTopOf="@id/edit_text_email"
+
+        android:paddingLeft="10dp"
+        android:id="@+id/edit_text_username"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white2"
+        android:textSize="30dp"
         android:hint="Username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintBottom_toTopOf="@id/edit_text_email"
+        app:layout_constraintEnd_toEndOf="@id/edit_text_email"
+        app:layout_constraintStart_toStartOf="@id/edit_text_email"
+        />
 
     <EditText
+
+        android:paddingLeft="10dp"
         android:id="@+id/edit_text_email"
-        app:layout_constraintBottom_toTopOf="@id/edit_text_password"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white2"
+        android:textSize="30dp"
         android:hint="Email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintBottom_toTopOf="@id/edit_text_password"
+        app:layout_constraintEnd_toEndOf="@id/edit_text_password"
+        app:layout_constraintStart_toStartOf="@id/edit_text_password"
+        />
+
 
     <EditText
+
+        android:paddingLeft="10dp"
         android:id="@+id/edit_text_password"
-        android:layout_marginBottom="70dp"
-        app:layout_constraintBottom_toTopOf="@id/button_next"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white2"
+        android:textSize="30dp"
         android:hint="Password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        app:layout_constraintBottom_toTopOf="@id/button_next"
+        app:layout_constraintEnd_toEndOf="@id/button_next"
+        app:layout_constraintStart_toStartOf="@id/button_next"
+        />
 
     <Button
+
         android:background="@color/white"
         android:id="@+id/button_next"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:textSize="24dp"
         android:text="NEXT"
-        android:layout_width="match_parent"
+        android:layout_width="370dp"
         android:layout_height="60dp"/>
 
     <ImageView
