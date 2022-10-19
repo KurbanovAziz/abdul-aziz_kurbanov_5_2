@@ -9,13 +9,13 @@
 
 
     <EditText
-
+        android:background="@drawable/roundstyle"
         android:paddingLeft="10dp"
         android:id="@+id/edit_text_username"
         android:layout_width="370dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="12dp"
-        android:background="@color/white2"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/white2"
         android:textSize="30dp"
         android:hint="Username"
         app:layout_constraintBottom_toTopOf="@id/edit_text_email"
@@ -24,12 +24,11 @@
         />
 
     <EditText
-
         android:paddingLeft="10dp"
         android:id="@+id/edit_text_email"
         android:layout_width="370dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="5dp"
         android:background="@color/white2"
         android:textSize="30dp"
         android:hint="Email"
@@ -40,13 +39,13 @@
 
 
     <EditText
-
+        android:background="@drawable/roundstyle"
         android:paddingLeft="10dp"
         android:id="@+id/edit_text_password"
         android:layout_width="370dp"
         android:layout_height="50dp"
         android:layout_marginBottom="12dp"
-        android:background="@color/white2"
+        android:backgroundTint="@color/white2"
         android:textSize="30dp"
         android:hint="Password"
         app:layout_constraintBottom_toTopOf="@id/button_next"
@@ -56,7 +55,8 @@
 
     <Button
 
-        android:background="@color/white"
+        android:background="@drawable/round_button"
+        android:backgroundTint="@color/white"
         android:id="@+id/button_next"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,6 +66,14 @@
         android:text="NEXT"
         android:layout_width="370dp"
         android:layout_height="60dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/round_grass"
+        android:backgroundTint="@color/green2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
     <ImageView
         android:src="@drawable/ic_sova"
